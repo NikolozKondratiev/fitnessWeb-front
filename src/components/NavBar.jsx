@@ -21,7 +21,7 @@ function NavBar() {
 
   return (
     <div className="relative top-0 z-40 w-full">
-      <div className="font-main2 flex h-12 w-full justify-start border-b-2 border-gray-200 bg-white px-5 text-base text-gray-900 md:justify-between lg:px-24 xl:px-48">
+      <div className="flex h-12 w-full justify-start border-b-2 border-gray-200 bg-white px-5 font-main2 text-base text-gray-900 md:justify-between lg:px-24 xl:px-48">
         <div className="flex items-center bg-white">
           <ul className="flex gap-12">
             <li className="flex flex-row gap-2">
