@@ -15,16 +15,17 @@ function GroupClasses1() {
           How Group Classes Work
         </h1>
         <p className="w-10/12 font-main2 text-base text-gray-500 lg:w-10/12">
-          Group classes are a great way to start learning how to box. We will
-          teach you the basics, while also working on your overall fitness and
-          stamina. <br /> <br /> We focus on high intensity training and
-          important boxing drills. These workouts will help you to perform at
-          your peak longer, and see improvements in your overall strength and
-          coordination. <br /> <br /> Working as a group, you will quickly learn
-          the fundamentals of good boxing, covering key areas like technique,
-          coordination and timing. <br /> <br /> Group classes can also help
-          with many of your fitness goals - getting in better shape, feeling
-          more confident, losing any fat, and adding lean muscle.
+          Class sessions provide an excellent opportunity to embark on your
+          boxing journey. Our instructors will guide you through fundamental
+          techniques, enhancing your overall physical fitness and endurance.{" "}
+          <br /> <br /> Our training program emphasizes high-intensity workouts
+          and essential boxing drills to enhance endurance, strength, and
+          coordination. Experience notable performance improvements through our
+          targeted approach. <br /> <br /> In a supportive group setting, you'll
+          rapidly acquire essential boxing fundamentals, including technique,
+          coordination, and timing. <br /> <br /> Group classes improve fitness,
+          confidence, and body composition. Embrace the supportive group
+          environment to reach your goals.
         </p>
       </div>
     </div>

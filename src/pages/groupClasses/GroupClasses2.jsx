@@ -13,20 +13,19 @@ function GroupClasses2() {
           Joining Our Group Classes
         </h1>
         <p className="w-10/12 font-main2 text-base text-gray-500 lg:w-10/12">
-          We are currently limited on the size and frequency of our group
-          classes. While we <br /> still do run group classes, it is essential
-          you contact us first to enquire about <br /> availability. <br />{" "}
-          <br /> If you are interested, please let us know using the contact
-          form below. We will let <br /> you know of any available spaces that
-          exist, and also notify you of any possible <br />
-          future changes or updates. <br /> <br /> If you are unsure of whether
-          to start group classes or one-on-one coaching, just <br />
-          check out{" "}
+          Due to current constraints, we have limitations on the size and
+          frequency of our group classes. To ensure availability, please contact
+          us before attending any group sessions. <br /> <br /> If you're
+          interested, kindly inform us using the contact form below. We will
+          notify you of any available spaces and keep you informed about
+          potential updates or changes in the future. <br /> <br /> If you're
+          unsure whether to join group classes or opt for one-on-one coaching,
+          simply take a look at{" "}
           <a className="cursor-pointer text-red-600 hover:underline">
             the FAQ section below
           </a>
-          , and then contact us letting us know which you <br /> might prefer.
-          We will be happy to help you make the right choice.
+          , and then contact us letting us know which you might prefer. We will
+          be happy to help you make the right choice.
         </p>
       </div>
     </div>
