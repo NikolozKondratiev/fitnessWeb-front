@@ -10,11 +10,6 @@ const mapOptions = {
   styles: MapStyles.styles,
 };
 
-const center = {
-  lat: 41.720287,
-  lng: 44.740616,
-};
-
 const markerPosition = {
   lat: 41.723963400145045,
   lng: 44.737758127331425,
