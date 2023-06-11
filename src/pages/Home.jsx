@@ -1,12 +1,12 @@
 import React from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
-function MainContent1() {
+function Home() {
   return (
     <div
       className={`h-halfScreen bg-[url(${null})] bg-cover bg-bottom bg-no-repeat`}
     >
-      <div className="backdrop-brightness-80 font-main2  flex h-full w-full items-center justify-center bg-red-700/70 text-center text-white">
+      <div className="backdrop-brightness-80 flex  h-full w-full items-center justify-center bg-red-700/70 text-center font-main2 text-white">
         <div className="flex flex-col items-center">
           <p className="text-3xl font-thin">12Rounds Boxing Club</p>
           <h1 className="font-main3 text-7xl">Elite Boxing Training</h1>
@@ -25,4 +25,4 @@ function MainContent1() {
   );
 }
 
-export default MainContent1;
+export default Home;

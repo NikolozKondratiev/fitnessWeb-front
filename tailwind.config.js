@@ -20,6 +20,7 @@ export default {
       width: {
         mid: "40rem",
         xs: "30rem",
+        xl: "90vh",
       },
       colors: {
         white: "#FFF",
