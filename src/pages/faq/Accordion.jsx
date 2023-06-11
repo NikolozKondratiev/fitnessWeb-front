@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import QA from "../../QA.json";
+import QA from "../../jsonData/QA.json";
 
 function Accordion() {
   const [activeAccordion, setActiveAccordion] = useState(null);
