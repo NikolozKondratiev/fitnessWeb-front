@@ -6,7 +6,7 @@ import AboutSection4 from "./AboutSection4";
 
 const About = () => {
   return (
-    <div className="section">
+    <div className="section" id="aboutUs">
       <AboutSection1 />
       <AboutSection2 />
       <AboutSection3 />

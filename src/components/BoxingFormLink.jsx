@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 function BoxingFormLink() {
   return (
@@ -8,9 +9,14 @@ function BoxingFormLink() {
           Want to Start Boxing?
         </h1>
         <div className="flex h-14 w-64 cursor-pointer items-center justify-center border-2 text-white duration-200 ease-in hover:bg-white hover:text-gray-600 lg:h-16">
-          <p className="text-center font-main2 text-base font-semibold lg:text-xl">
+          <Link
+            to="contactUs"
+            smooth={true}
+            duration={800}
+            className="text-center font-main2 text-base font-semibold lg:text-xl"
+          >
             Book Your First Lesson
-          </p>
+          </Link>
         </div>
       </div>
     </div>

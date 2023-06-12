@@ -70,7 +70,7 @@ function Form() {
   };
 
   return (
-    <div className="flex w-full flex-col lg:w-5/12">
+    <div id="contactUs" className="flex w-full flex-col lg:w-5/12">
       <h1 className="font-main3 text-3xl">How We Can Help You...</h1>
 
       {isSuccessful ? (

@@ -1,5 +1,6 @@
 import React from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { Link } from "react-scroll";
 
 function Home() {
   return (
@@ -10,15 +11,23 @@ function Home() {
         <div className="flex flex-col items-center">
           <p className="text-3xl font-thin">12Rounds Boxing Club</p>
           <h1 className="font-main3 text-7xl">Elite Boxing Training</h1>
-          <button className="mt-10 h-16 w-72 bg-black px-8 text-xl font-bold text-gray-200 hover:text-white">
-            LEARN MORE ABOUT 12ROUNDS
-          </button>
-          <i className="flex h-24 items-end">
+          <Link to="aboutUs" smooth={true} duration={800}>
+            <button className="mt-10 h-16 w-72 bg-black px-8 text-xl font-bold text-gray-200 hover:text-white">
+              LEARN MORE ABOUT 12ROUNDS
+            </button>
+          </Link>
+
+          <Link
+            to="aboutUs"
+            smooth={true}
+            duration={800}
+            className="flex h-24 items-end"
+          >
             <ExpandMoreIcon
               fontSize="large"
-              className="hover: cursor-pointer"
+              className="text-gray-200 hover:cursor-pointer hover:text-white"
             />
-          </i>
+          </Link>
         </div>
       </div>
     </div>

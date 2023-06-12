@@ -4,7 +4,7 @@ import GroupClasses2 from "./GroupClasses2";
 
 const GroupClasses = () => {
   return (
-    <div className="section">
+    <div id="groupClasses" className="section">
       <GroupClasses1 />
       <GroupClasses2 />
     </div>

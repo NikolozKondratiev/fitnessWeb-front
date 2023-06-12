@@ -1,14 +1,16 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useContext } from "react";
 import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import MenuIcon from "@mui/icons-material/Menu";
 
+import { Link } from "react-scroll";
+
 export const Links = [
-  { name: "About Us", link: "/#about", id: 1 },
-  { name: "Group Classes", link: "/#classes", id: 2 },
-  { name: "Clubs", link: "/#clubs", id: 3 },
-  { name: "Contact", link: "/#Contact", id: 4 },
+  { name: "About Us", link: "aboutUs", id: 1 },
+  { name: "Group Classes", link: "groupClasses", id: 2 },
+  { name: "FAQ", link: "faq", id: 3 },
+  { name: "Contact", link: "contactUs", id: 4 },
 ];
 
 function NavBar() {
@@ -46,7 +48,14 @@ function NavBar() {
             </div>
             <li>
               <button className="h-10 w-40 rounded-xl bg-red-600">
-                <p className="text-white">Book a session</p>
+                <Link
+                  to="contactUs"
+                  smooth={true}
+                  duration={800}
+                  className="text-white"
+                >
+                  Book a session
+                </Link>
               </button>
             </li>
           </ul>
@@ -81,12 +90,14 @@ function NavBar() {
                 key={link.name}
                 className="my-3 cursor-pointer md:my-0 lg:w-full"
               >
-                <a
-                  href={link.link}
+                <Link
+                  to={link.link}
+                  smooth={true}
+                  duration={800}
                   className="font-main2 text-gray-800 duration-150 hover:text-red-600"
                 >
                   {link.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
