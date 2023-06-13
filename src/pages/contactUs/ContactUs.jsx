@@ -29,7 +29,7 @@ const contactDetails = [
 
 function ContactUs() {
   return (
-    <div className="flex flex-col justify-between gap-10 px-5 md:px-24 lg:flex-row lg:px-48">
+    <div className="flex flex-col justify-between gap-10 px-5 md:px-24 lg:flex-row xl:px-48">
       <div className="w-6/12">
         <h1 className="mb-3 font-main3 text-3xl">Contact Us</h1>
         {contactDetails.map((contactDetail) => (

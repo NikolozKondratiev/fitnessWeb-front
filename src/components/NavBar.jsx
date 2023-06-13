@@ -28,7 +28,7 @@ function NavBar() {
           <ul className="flex gap-12">
             <li className="flex flex-row gap-2">
               <p>Phone:</p>
-              <a className="font-semibold">+995 597 123 321</a>
+              <a className="font-semibold">+995 555 555 555</a>
             </li>
             <li className="hidden md:block">
               <p>

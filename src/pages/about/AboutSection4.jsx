@@ -3,7 +3,7 @@ import pic10 from "../../assets/pic10.jpg";
 
 function AboutSection4() {
   return (
-    <div className="flex flex-col justify-between gap-10 bg-white px-5 md:px-24 lg:flex-row lg:px-48">
+    <div className="flex flex-col justify-between gap-10 bg-white px-5 md:px-24 lg:flex-row xl:px-48">
       <div className="flex h-max w-full justify-center md:justify-start">
         <img src={pic10} className="top-0 h-96 md:h-bigPic lg:object-contain" />
       </div>
@@ -12,7 +12,7 @@ function AboutSection4() {
           Expert Equipment and Facilities
         </h2>
         <h1 className="font-main3 text-5xl text-black">
-          Expert Equipment and Facilities
+          Train at a Dedicated Boxing Gym
         </h1>
         <p className="w-10/12 font-main2 text-base text-gray-500 lg:w-10/12">
           At our gym, we have created a dedicated space designed specifically

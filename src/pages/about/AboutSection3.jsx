@@ -3,7 +3,7 @@ import pic2 from "../../assets/pic2.jpg";
 
 function AboutSection3() {
   return (
-    <div className="flex flex-col-reverse gap-10 bg-white px-5 md:px-24 lg:flex-row lg:justify-between lg:px-48">
+    <div className="flex flex-col-reverse gap-10 bg-white px-5 md:px-24 lg:flex-row lg:justify-between xl:px-48">
       <div className="flex flex-col gap-5">
         <h2 className="font-main2 text-2xl text-red-600">
           Progress with Confidence

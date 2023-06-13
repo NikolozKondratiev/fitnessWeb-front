@@ -37,7 +37,7 @@ const hours = [
 function Footer() {
   return (
     <div className="flex h-auto flex-col gap-10 bg-footer">
-      <div className="mt-10 flex h-auto flex-col gap-10 bg-footer px-5 md:flex-row md:justify-between md:px-24 lg:px-48">
+      <div className="mt-10 flex h-auto flex-col gap-10 bg-footer px-5 md:flex-row md:justify-between md:px-24 xl:px-48">
         <div className="flex flex-col gap-2">
           <h1 className="font-main3 text-3xl font-bold text-white">
             12Rounds Boxing Club

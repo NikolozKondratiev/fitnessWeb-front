@@ -3,7 +3,7 @@ import pic8 from "../../assets/pic8.jpg";
 
 function GroupClasses1() {
   return (
-    <div className="flex flex-col gap-10 bg-white px-5 md:px-24 lg:justify-between lg:px-48 xl:flex-row">
+    <div className="flex flex-col gap-10 bg-white px-5 md:px-24 lg:justify-between xl:flex-row xl:px-48">
       <div className="w-full">
         <img src={pic8} className="h-96 w-max object-cover lg:h-bigPic" />
       </div>

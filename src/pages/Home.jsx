@@ -1,11 +1,12 @@
 import React from "react";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Link } from "react-scroll";
+import homePic from "../assets/home-bg.jpg";
 
 function Home() {
   return (
     <div
-      className={`h-halfScreen bg-[url(${null})] bg-cover bg-bottom bg-no-repeat`}
+      className={`h-halfScreen bg-[url(assets/home-bg.jpg)] bg-cover bg-bottom bg-no-repeat`}
     >
       <div className="backdrop-brightness-80 flex  h-full w-full items-center justify-center bg-red-700/70 text-center font-main2 text-white">
         <div className="flex flex-col items-center">

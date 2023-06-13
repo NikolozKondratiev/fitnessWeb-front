@@ -6,7 +6,7 @@ function FAQ() {
   return (
     <div
       id="faq"
-      className="relative my-5 flex h-auto justify-center overflow-hidden px-5 md:px-24 lg:px-48"
+      className="relative my-5 flex h-auto justify-center overflow-hidden px-5 md:px-24 xl:px-48"
     >
       <div className="absolute -left-1/4 top-0 -z-20 h-xlSection w-xl rotate-45 scale-150 bg-gray-100"></div>
       <div className="my-5 flex flex-col items-center gap-10 lg:w-1/2">
