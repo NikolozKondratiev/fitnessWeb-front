@@ -18,7 +18,6 @@ function App() {
         <BoxingFormLink />
         <GroupClasses />
         <FAQ />
-        <Map />
         <ContactUs />
         <Footer />
       </div>
