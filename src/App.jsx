@@ -1,5 +1,4 @@
 import BoxingFormLink from "./components/BoxingFormLink";
-import Map from "./components/Map";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import About from "./pages/about/About";
